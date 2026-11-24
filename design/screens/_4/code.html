@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="he"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#fbf8ff;}body{overscroll-behavior:none;font-family:'Rubik',sans-serif;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary-container": "#7a532a", "outline-variant": "#dfbfc1", "surface-container-high": "#e6e6ff", "on-tertiary-fixed-variant": "#8b1433", "on-primary-fixed-variant": "#8e0d33", "tertiary-container": "#c6435c", "on-surface-variant": "#584143", "surface-tint": "#af2b49", "on-error": "#ffffff", "on-background": "#181a2e", "on-primary": "#ffffff", "primary-fixed-dim": "#ffb2ba", "surface-dim": "#d7d8f4", "secondary": "#7d562d", "on-primary-fixed": "#400011", "inverse-surface": "#2d2f44", "surface-container-low": "#f4f2ff", "tertiary-fixed-dim": "#ffb2ba", "tertiary-fixed": "#ffd9dc", "error": "#ba1a1a", "on-primary-container": "#fff6f6", "primary-fixed": "#ffd9dc", "surface": "#fbf8ff", "error-container": "#ffdad6", "surface-bright": "#fbf8ff", "secondary-fixed": "#ffdcbd", "on-tertiary-fixed": "#400011", "surface-container-lowest": "#ffffff", "on-tertiary": "#ffffff", "surface-container-highest": "#e0e0fc", "inverse-primary": "#ffb2ba", "on-secondary-fixed-variant": "#623f18", "inverse-on-surface": "#f1efff", "tertiary": "#a52a45", "surface-variant": "#e0e0fc", "on-error-container": "#93000a", "on-secondary-fixed": "#2c1600", "on-surface": "#181a2e", "outline": "#8b7073", "primary-container": "#c93f5b", "primary": "#a82544", "surface-container": "#edecff", "secondary-container": "#ffca98", "background": "#fbf8ff", "secondary-fixed-dim": "#f0bd8b", "on-secondary": "#ffffff", "on-tertiary-container": "#fff6f6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "space-lg": "1.5rem", "gutter": "1rem", "margin": "1rem", "margin-lg": "3rem", "gutter-md": "1.5rem", "space-xl": "2.5rem", "margin-md": "2rem", "space-xs": "0.25rem", "space-md": "1rem", "gutter-lg": "2rem" }, "fontFamily": { "body-sm": ["Rubik"], "label-lg": ["Rubik"], "headline-xl": ["Rubik"], "body-md": ["Rubik"], "body-lg": ["Rubik"], "headline-lg-mobile": ["Rubik"], "headline-sm": ["Rubik"], "headline-xl-mobile": ["Rubik"], "headline-md": ["Rubik"], "headline-lg": ["Rubik"], "label-sm": ["Rubik"], "label-md": ["Rubik"] }, "fontSize": { "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["15px", { "lineHeight": "20px", "fontWeight": "600" }], "headline-xl": ["40px", { "lineHeight": "52px", "fontWeight": "700" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "500" }], "headline-xl-mobile": ["30px", { "lineHeight": "40px", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "30px", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "42px", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "fontWeight": "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="חזור" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[24px] rotate-180">arrow_back_ios_new</span></button><h1 class="font-headline-sm text-headline-sm font-semibold tracking-tight text-on-surface">Checkout Flow</h1></div><div class="flex items-center"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full pb-10">
+<!-- Developer Header Notice -->
+<aside class="mx-gutter mt-space-sm mb-space-md p-space-sm bg-surface-container-highest rounded-xl text-on-surface-variant text-label-sm font-label-sm shadow-sm leading-relaxed" dir="rtl">
+<div class="font-bold text-on-surface">תפקיד: בחירת אופן אספקה (איסוף או משלוח), מועד מבוקש, פרטי קשר ואישור תקנון | מקושר ל: עגלת קניות, מסך אישור הזמנה (/order-confirmation), API הזמנות</div>
+<div class="opacity-80 mt-0.5" dir="ltr">Role: Delivery method selection, date &amp; time, customer contact and terms agreement | Linked to: Cart, Order Confirmation (/order-confirmation), Orders API</div>
+</aside>
+<!-- Progress Bar Stepper -->
+<section aria-label="שלבי רכישה" class="px-gutter mb-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-center justify-between text-label-md font-label-md">
+<div class="flex items-center gap-1.5 text-on-surface-variant opacity-75">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[15px] text-primary" style="font-variation-settings: 'FILL' 1;">check</span>
+</span>
+<span>עגלה</span>
+</div>
+<div class="h-[2px] flex-1 mx-2 bg-primary"></div>
+<div class="flex items-center gap-1.5 text-primary font-bold">
+<span class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center text-label-sm font-label-sm shadow-sm">2</span>
+<span>פרטי הזמנה</span>
+</div>
+<div class="h-[2px] flex-1 mx-2 bg-surface-container-high"></div>
+<div class="flex items-center gap-1.5 text-on-surface-variant opacity-50">
+<span class="w-6 h-6 rounded-full bg-surface-container text-on-surface-variant flex items-center justify-center text-label-sm font-label-sm">3</span>
+<span>אישור בקשה</span>
+</div>
+</div>
+</section>
+<form class="flex flex-col gap-space-md px-gutter" id="checkout-form" onsubmit="event.preventDefault(); window.location.href='/order-confirmation';">
+<!-- Delivery Method Selection -->
+<section aria-labelledby="delivery-heading" class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="text-headline-sm font-headline-sm text-on-surface flex items-center gap-2" id="delivery-heading">
+<span class="material-symbols-outlined text-primary text-[22px]" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+          אופן אספקה
+        </h2>
+<span class="text-label-sm font-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">שלב 1 מתוך 3</span>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Option 1: Pickup -->
+<label class="delivery-option relative flex items-start gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm cursor-pointer transition-all duration-200" id="card-pickup">
+<input class="sr-only" name="delivery_type" onchange="handleDeliveryChange('pickup')" type="radio" value="pickup"/>
+<div class="custom-radio mt-0.5 w-5 h-5 rounded-full bg-surface-container flex items-center justify-center flex-shrink-0">
+<div class="radio-dot w-2.5 h-2.5 rounded-full bg-primary hidden"></div>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-on-surface">איסוף עצמי חינם מהסטודיו</span>
+<span class="text-label-sm font-label-sm text-on-secondary-container bg-secondary-container/50 px-2 py-0.5 rounded-full font-bold">חינם</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">רחוב התמר 14, תיאום מראש</p>
+<div class="flex items-center gap-1 text-label-sm font-label-sm text-secondary mt-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>שעות איסוף: 08:30 - 19:30</span>
+</div>
+</div>
+</label>
+<!-- Option 2: Delivery (Default Selected) -->
+<label class="delivery-option relative flex items-start gap-space-sm p-space-md rounded-xl bg-surface-container-lowest shadow-sm cursor-pointer transition-all duration-200 ring-2 ring-primary bg-primary/5" id="card-delivery">
+<input checked="" class="sr-only" name="delivery_type" onchange="handleDeliveryChange('delivery')" type="radio" value="delivery"/>
+<div class="custom-radio mt-0.5 w-5 h-5 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+<div class="radio-dot w-2.5 h-2.5 rounded-full bg-on-primary block"></div>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-on-surface">משלוח מקומי ברכב ממוזג</span>
+<span class="text-label-sm font-label-sm text-on-primary bg-primary-container px-2 py-0.5 rounded-full font-bold">35 ₪</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-1">אספקה בטוחה של בלוני הליום השומרת על יציבותם ואיכותם המלאה</p>
+<div class="flex items-center gap-1 text-label-sm font-label-sm text-primary mt-1">
+<span class="material-symbols-outlined text-[16px]">ac_unit</span>
+<span>רכב ייעודי ומבוקר טמפרטורה</span>
+</div>
+</div>
+</label>
+</div>
+</section>
+<!-- Visual Atmosphere Asset (No Human Policy) -->
+<div class="relative w-full h-28 rounded-xl overflow-hidden shadow-sm">
+<div class="bg-cover bg-center w-full h-full" data-alt="Close up aesthetic shot of luxury metallic helium balloons in rose gold, blush pink, and cream, tied with champagne silk ribbons alongside an elegant dark red gift box filled with artisan chocolate pralines. Warm ambient studio light, shallow depth of field, refined festive gifting atmosphere, no people." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBSgSTFF0_t5pOSPNXW8p-KX1BRt9OMo_aVt7Q_sTKr8Veeknrmo_wM_fjE79QFKCumWQW-fI5UX7eWK4hlGTa3Dp0yaRBe1TbzalbYCPrGzvzhVRxCUZE2Fy3U0FZkkxiq0-0I2QPzERxFj7gQJ9NT0H11Md2D1_jXdoafbCKI0gRGJxPZyO-v07UGyT18WwhorT8TJcKHuT7TL3HTnXPi84TeI01gM5XX48M7xm4w')"></div>
+<div class="absolute inset-0 bg-gradient-to-l from-on-background/70 via-on-background/30 to-transparent flex items-center p-space-md text-on-primary">
+<div>
+<p class="text-label-md font-label-md text-primary-fixed">מומחיות בשזירת בלונים</p>
+<p class="text-body-sm font-body-sm font-medium">ההזמנה תעוצב בקפידה בסמוך למועד המשלוח</p>
+</div>
+</div>
+</div>
+<!-- Date & Time Section -->
+<section class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-md">
+<h2 class="text-headline-sm font-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">calendar_month</span>
+        מועד מבוקש למשלוח
+      </h2>
+<div class="flex flex-col gap-space-sm">
+<label class="text-label-md font-label-md text-on-surface" for="delivery-date">תאריך מבוקש</label>
+<div class="relative">
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors text-right" id="delivery-date" onchange="updateDateDisplay(this.value)" required="" type="date" value="2025-05-18"/>
+</div>
+<div class="flex items-center gap-1.5 text-label-sm font-label-sm text-primary bg-primary-fixed/30 px-3 py-1.5 rounded-lg">
+<span class="material-symbols-outlined text-[18px]">event_available</span>
+<span id="date-weekday-display">יום ראשון, 18 במאי 2025 (מועד זמין להפצה)</span>
+</div>
+</div>
+<!-- Time Window Slots -->
+<div class="flex flex-col gap-space-sm">
+<label class="text-label-md font-label-md text-on-surface">חלון שעות אספקה</label>
+<div class="grid grid-cols-1 gap-2">
+<label class="time-slot flex items-center justify-between p-3 rounded-lg bg-surface-container-low cursor-pointer transition-colors hover:bg-surface-container-high">
+<div class="flex items-center gap-3">
+<input class="accent-primary w-4 h-4" name="time_window" type="radio" value="10-12"/>
+<span class="text-body-sm font-body-sm text-on-surface">בוקר: 10:00 - 12:00</span>
+</div>
+<span class="text-label-sm font-label-sm text-on-surface-variant">בוקר מוקדם</span>
+</label>
+<label class="time-slot flex items-center justify-between p-3 rounded-lg bg-surface-container-high cursor-pointer transition-colors">
+<div class="flex items-center gap-3">
+<input checked="" class="accent-primary w-4 h-4" name="time_window" type="radio" value="14-16"/>
+<span class="text-body-sm font-body-sm text-on-surface font-semibold">צהריים: 14:00 - 16:00</span>
+</div>
+<span class="text-label-sm font-label-sm text-primary font-bold">הכי פופולרי</span>
+</label>
+<label class="time-slot flex items-center justify-between p-3 rounded-lg bg-surface-container-low cursor-pointer transition-colors hover:bg-surface-container-high">
+<div class="flex items-center gap-3">
+<input class="accent-primary w-4 h-4" name="time_window" type="radio" value="17-1930"/>
+<span class="text-body-sm font-body-sm text-on-surface">ערב: 17:00 - 19:30</span>
+</div>
+<span class="text-label-sm font-label-sm text-on-surface-variant">חגיגות ערב</span>
+</label>
+</div>
+</div>
+</section>
+<!-- Customer Details Section -->
+<section class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h2 class="text-headline-sm font-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">contact_mail</span>
+          פרטי מזמין ומשלוח
+        </h2>
+<span class="text-label-sm font-label-sm text-secondary bg-secondary-fixed/40 px-2 py-0.5 rounded-full">נשמר בהזמנה זו</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<label class="text-label-md font-label-md text-on-surface" for="cust-name">שם מלא *</label>
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors" id="cust-name" placeholder="לדוגמה: רוני כהן" required="" type="text"/>
+<span class="text-label-sm font-label-sm text-on-surface-variant">השם יישמר בחשבונך להזמנות הבאות</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<label class="text-label-md font-label-md text-on-surface" for="cust-phone">מספר טלפון לקבלת עדכונים בוואטסאפ *</label>
+<div class="relative flex items-center">
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors text-right" dir="ltr" id="cust-phone" placeholder="050-1234567" required="" type="tel"/>
+<span class="absolute left-3 material-symbols-outlined text-primary text-[20px]">chat</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<label class="text-label-md font-label-md text-on-surface" for="cust-email">כתובת אימייל לקבלת סיכום *</label>
+<div class="relative flex items-center">
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors text-right" dir="ltr" id="cust-email" placeholder="name@example.com" required="" type="email"/>
+<span class="absolute left-3 material-symbols-outlined text-on-surface-variant text-[20px]">mail</span>
+</div>
+</div>
+<!-- Address Fields (Shown for Delivery) -->
+<div class="flex flex-col gap-space-sm pt-2" id="address-container">
+<div class="text-label-md font-label-md text-on-surface font-semibold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary">pin_drop</span>
+          כתובת יעד למשלוח
+        </div>
+<div class="grid grid-cols-3 gap-2">
+<div class="col-span-2 flex flex-col gap-1">
+<label class="text-label-sm font-label-sm text-on-surface-variant" for="cust-street">רחוב *</label>
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors" id="cust-street" placeholder="ויצמן" required="" type="text"/>
+</div>
+<div class="col-span-1 flex flex-col gap-1">
+<label class="text-label-sm font-label-sm text-on-surface-variant" for="cust-number">מספר בית *</label>
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors" id="cust-number" placeholder="12" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div class="flex flex-col gap-1">
+<label class="text-label-sm font-label-sm text-on-surface-variant" for="cust-city">עיר / יישוב *</label>
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors" id="cust-city" placeholder="תל אביב" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-label-sm font-label-sm text-on-surface-variant" for="cust-apt">קומה / דירה</label>
+<input class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-md font-body-md outline-none focus:bg-surface-container-high transition-colors" id="cust-apt" placeholder="קומה 3, דירה 9" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="text-label-sm font-label-sm text-on-surface-variant" for="cust-notes">הערות לשליח / קוד כניסה לבניין</label>
+<textarea class="w-full bg-surface-container-low text-on-surface rounded-lg p-3 text-body-sm font-body-sm outline-none focus:bg-surface-container-high transition-colors" id="cust-notes" placeholder="קוד כניסה לאינטרקום 1452#, יש להשאיר ליד הדלת בזהירות" rows="2"></textarea>
+</div>
+</div>
+</section>
+<!-- Order Summary Preview Box -->
+<section aria-labelledby="summary-heading" class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm">
+<h2 class="text-headline-sm font-headline-sm text-on-surface flex items-center justify-between" id="summary-heading">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">receipt_long</span>
+          סיכום הזמנה
+        </span>
+<span class="text-label-sm font-label-sm text-on-surface-variant font-normal">2 פריטים</span>
+</h2>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>סה"כ מוצרים (מארז כדורי כסף + פרלינים):</span>
+<span class="font-medium text-on-surface">272 ₪</span>
+</div>
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant" id="delivery-cost-row">
+<span>משלוח ברכב ממוזג:</span>
+<span class="font-medium text-on-surface" id="delivery-cost-val">35 ₪</span>
+</div>
+<div class="h-px bg-surface-container-high my-1"></div>
+<div class="flex items-center justify-between text-headline-sm font-headline-sm text-on-surface font-bold">
+<span>סה"כ לתשלום:</span>
+<span class="text-primary text-headline-md font-headline-md" id="total-price-val">307 ₪</span>
+</div>
+</div>
+</section>
+<!-- Important Notice Box -->
+<div class="bg-secondary-container/40 p-space-md rounded-xl flex items-start gap-space-sm shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[24px] flex-shrink-0 mt-0.5">info</span>
+<div class="text-body-sm font-body-sm text-on-secondary-container leading-relaxed">
+<strong class="font-semibold">לתשומת לבך:</strong> לחיצה על הכפתור שולחת בקשת הזמנה לאישור זמינות. לאחר אישור המנהלת יישלח קישור לתשלום ב-Bit.
+      </div>
+</div>
+<!-- Legal Agreement Checkbox (REQUIRED) -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-start gap-3">
+<input class="accent-primary w-5 h-5 rounded mt-0.5 cursor-pointer flex-shrink-0" id="terms-agree" required="" type="checkbox"/>
+<label class="text-body-sm font-body-sm text-on-surface leading-normal cursor-pointer select-none" for="terms-agree">
+        קראתי ואישרתי את 
+        <a class="text-primary font-semibold underline underline-offset-2" href="#terms">תקנון האתר</a> 
+        ואת 
+        <a class="text-primary font-semibold underline underline-offset-2" href="#privacy">מדיניות הפרטיות</a> 
+        *
+      </label>
+</div>
+<!-- Sticky Bottom CTA Area -->
+<div class="pt-2">
+<button class="w-full h-12 bg-primary hover:bg-tertiary text-on-primary rounded-lg font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition-all" id="submit-btn" type="submit">
+<span id="btn-text">שליחת בקשת הזמנה (307 ₪)</span>
+<span class="material-symbols-outlined text-[20px] rotate-180">arrow_back</span>
+</button>
+<p class="text-center text-label-sm font-label-sm text-on-surface-variant mt-2 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified_user</span>
+        העסקה מאובטחת • ללא חיוב מיידי עד אישור שזירה
+      </p>
+</div>
+</form>
+</div>
+<script>
+  function handleDeliveryChange(type) {
+    const cardPickup = document.getElementById('card-pickup');
+    const cardDelivery = document.getElementById('card-delivery');
+    const addressContainer = document.getElementById('address-container');
+    const deliveryCostVal = document.getElementById('delivery-cost-val');
+    const totalPriceVal = document.getElementById('total-price-val');
+    const btnText = document.getElementById('btn-text');
+
+    // Radios visual state
+    const pickupRadio = cardPickup.querySelector('.radio-dot');
+    const pickupOuter = cardPickup.querySelector('.custom-radio');
+    const deliveryRadio = cardDelivery.querySelector('.radio-dot');
+    const deliveryOuter = cardDelivery.querySelector('.custom-radio');
+
+    const streetInput = document.getElementById('cust-street');
+    const numberInput = document.getElementById('cust-number');
+    const cityInput = document.getElementById('cust-city');
+
+    if (type === 'pickup') {
+      cardPickup.classList.add('ring-2', 'ring-primary', 'bg-primary/5');
+      pickupOuter.classList.add('bg-primary');
+      pickupRadio.classList.remove('hidden');
+      pickupRadio.classList.add('bg-on-primary');
+
+      cardDelivery.classList.remove('ring-2', 'ring-primary', 'bg-primary/5');
+      deliveryOuter.classList.remove('bg-primary');
+      deliveryOuter.classList.add('bg-surface-container');
+      deliveryRadio.classList.add('hidden');
+
+      addressContainer.classList.add('hidden');
+      streetInput.removeAttribute('required');
+      numberInput.removeAttribute('required');
+      cityInput.removeAttribute('required');
+
+      deliveryCostVal.textContent = 'חינם';
+      totalPriceVal.textContent = '272 ₪';
+      btnText.textContent = 'שליחת בקשת הזמנה (272 ₪)';
+    } else {
+      cardDelivery.classList.add('ring-2', 'ring-primary', 'bg-primary/5');
+      deliveryOuter.classList.add('bg-primary');
+      deliveryOuter.classList.remove('bg-surface-container');
+      deliveryRadio.classList.remove('hidden');
+      deliveryRadio.classList.add('bg-on-primary');
+
+      cardPickup.classList.remove('ring-2', 'ring-primary', 'bg-primary/5');
+      pickupOuter.classList.remove('bg-primary');
+      pickupOuter.classList.add('bg-surface-container');
+      pickupRadio.classList.add('hidden');
+
+      addressContainer.classList.remove('hidden');
+      streetInput.setAttribute('required', 'required');
+      numberInput.setAttribute('required', 'required');
+      cityInput.setAttribute('required', 'required');
+
+      deliveryCostVal.textContent = '35 ₪';
+      totalPriceVal.textContent = '307 ₪';
+      btnText.textContent = 'שליחת בקשת הזמנה (307 ₪)';
+    }
+  }
+
+  function updateDateDisplay(val) {
+    if (!val) return;
+    try {
+      const d = new Date(val);
+      const days = ['יום ראשון', 'יום שני', 'יום שלישי', 'יום רביעי', 'יום חמישי', 'יום שישי', 'יום שבת'];
+      const months = ['בינואר', 'בפברואר', 'במרץ', 'באפריל', 'במאי', 'ביוני', 'ביולי', 'באוגוסט', 'בספטמבר', 'באוקטובר', 'בנובמבר', 'בדצמבר'];
+      const dayName = days[d.getDay()];
+      const dayOfMonth = d.getDate();
+      const monthName = months[d.getMonth()];
+      const year = d.getFullYear();
+      document.getElementById('date-weekday-display').textContent = dayName + ', ' + dayOfMonth + ' ' + monthName + ' ' + year + ' (מועד זמין להפצה)';
+    } catch(e) {}
+  }
+</script></main></body></html>
